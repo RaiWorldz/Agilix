@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const carritoDeComprasSlice = createSlice({
 
-  name: 'carrito',
+  name: "carrito",
   initialState: [],
   reducers: {
     agregarAlCarrito: (state, action) => {
